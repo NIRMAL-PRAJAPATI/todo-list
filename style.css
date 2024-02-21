@@ -202,7 +202,7 @@ img {
   }
 
   .mainbtn, #statusbtn {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #bottom {
@@ -249,14 +249,14 @@ img {
 
 @media (max-width: 400px) {
   #myText {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   thead tr td {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   tbody tr {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
