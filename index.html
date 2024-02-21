@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/sponzeall icon logo.png" type="image/x-icon">
+    <title>TODO List | sponzeall.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="logo" src="img/sponzeall logo (3).png" height="30">
+    <div id="main">
+        <div id="container">
+            <div id="top">
+                <h1 id="todohead">TODO List</h1>
+                <div id="userarea">
+                    <input type="text" id="myText" maxlength="40" placeholder="Enter Your Task Here . . ." required><br>
+                    <button id="addbtn" class="mainbtn">ADD TASK TO LIST</button>
+                </div>
+            </div>
+            <div id="bottom">
+                <table>
+                    <thead>
+                        <tr>
+                            <td style="width: 60%;">Your Tasks</td>
+                            <td style="width: 40%; text-align: center;">Status</td>
+                            <td style="width: 10%; text-align: center;">Action</tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <button id="alldelete" class="mainbtn">delete all the todo tasks</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script async src="script.js"></script>
+</body>
+
+</html>
