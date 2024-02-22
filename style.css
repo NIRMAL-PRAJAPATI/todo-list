@@ -174,7 +174,7 @@ img {
 
   .mainbtn, #statusbtn {
     height: 30px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   #statusbtn {
@@ -202,7 +202,7 @@ img {
   }
 
   .mainbtn, #statusbtn {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   #bottom {
@@ -243,7 +243,7 @@ img {
   }
 
   tbody tr {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -253,10 +253,10 @@ img {
   }
 
   thead tr td {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   tbody tr {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
